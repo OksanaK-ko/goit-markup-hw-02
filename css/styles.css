@@ -1,10 +1,96 @@
-body {
-    /* цвет основного текста */
-    color: #212121;
-    
-
-
+:root{
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+    --title-accent-color:#FFFFFF;
+    --footer-accent-color:rgba(255, 255, 255, 0.6);
 }
-/* вторичный цвет */ color: #757575;
-/* белый */ color: #FFFFFF;
-/* акцент */ color: #2196F3;
+body {
+    background: #E5E5E5;
+    color: var(--primary-text-color); /* цвет основного текста */
+        
+    }
+/* вторичный цвет color: #757575;*/
+/* белый color: #FFFFFF;*/
+/* акцент color: #2196F3;*/
+/* акцент в футере  color: rgba(255, 255, 255, 0.6);*/
+/* вторичный цвет фона background: #F5F4FA;*/
+
+.list {
+    list-style: none;
+}
+/* лого */
+.logo {
+    color: var(--primary-text-color);
+}
+.accent {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* upper contacts */
+.contact .link {
+    color: var(--secondary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+   color: var(--accent-color);
+}     
+
+/* герой */
+.hero {
+   color: var(--title-accent-color);
+}
+/* features */
+.function-description {
+    color: var(--secondary-text-color);
+}
+/* услуги */
+.services {
+    color: var(--title-accent-color);
+}
+.services:hover,
+.services:focus {
+    color:var(--secondary-text-color);
+}
+
+/* команда */
+.team-member-title {
+    color: var(--secondary-text-color);
+}
+.social-link {
+    color:var(--secondary-text-color);
+}
+.social-link:hover,
+.social-link:focus {
+    color: var(--accent-color);   
+}
+/* постоянные клиенты */
+.client-link {
+    color:var(--secondary-text-color);   
+}
+.client-link:hover,
+.client-link:focus {
+    color: var(--accent-color);     
+}
+/* footer */
+.address {
+    color: var(--title-accent-color);  
+}
+.join {
+    color: var(--title-accent-color);
+}
+.subscribe {
+    color: var(--title-accent-color);
+}
+.developed {
+    color:var(--secondary-text-color);  
+}
