@@ -1,3 +1,4 @@
+/* main page */
 :root{
     --primary-text-color:#212121;
     --secondary-text-color:#757575;
@@ -94,3 +95,23 @@ body {
 .developed {
     color:var(--secondary-text-color);  
 }
+/* portfolio page
+ */
+ /* портфолио */
+ .example {
+     color:var(--primary-text-color);
+ }
+ .example:hover,
+ .example:focus {
+
+ }
+ .example-type {
+    color:var(--secondary-text-color);   
+ }
+ .example-text {
+    color: var(--title-accent-color); 
+ }
+ .example-text:hover,
+ .example-text:focus {
+     background-color: var(--accent-color);
+ }
